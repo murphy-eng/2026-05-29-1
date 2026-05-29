@@ -1,18 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Syne:wght@400;500;700;800&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap');
 @import "tailwindcss";
 
 @theme {
   --font-sans: "Inter", "Noto Sans TC", ui-sans-serif, system-ui, sans-serif;
-  --font-display: "Space Grotesk", "Noto Sans TC", sans-serif;
+  --font-display: "Syne", "Noto Sans TC", sans-serif;
+  --font-syne: "Syne", sans-serif;
   --font-mono: "JetBrains Mono", monospace;
   
-  --color-brand-cream: #FCF8F0;
-  --color-brand-cream-dark: #F7EFE2;
-  --color-brand-yellow: #E6B822;
-  --color-brand-yellow-light: #FDF5DB;
-  --color-brand-charcoal: #151618;
-  --color-brand-slate: #23252A;
-  --color-brand-gray: #5F6169;
+  --color-brand-cream: #f9f9f9;
+  --color-brand-cream-dark: #f3f3f4;
+  --color-brand-yellow: #F8CB2A;
+  --color-brand-yellow-hover: #F7B52E;
+  --color-brand-yellow-light: #FEF0C7;
+  --color-brand-charcoal: #151C31;
+  --color-brand-navy-dark: #0C1020;
+  --color-brand-slate: #2F3131;
+  --color-brand-gray: #6B7280;
 }
 
 /* Animations and custom classes */

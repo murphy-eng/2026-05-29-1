@@ -120,6 +120,8 @@ export default function App() {
               <Cases onQuoteOpen={openQuoteModal} />
             ) : (
               <SubPages 
+                currentPage={currentPage}
+                setCurrentPage={handlePageChange}
                 activeTab={activeTab === 'all' ? (currentPage === 'web-design' ? 'overview' : currentPage === 'brand-cis' ? 'overview' : currentPage === 'marketing' ? 'seo' : 'list') : activeTab}
                 setActiveTab={setActiveTab}
                 openQuoteModal={openQuoteModal}
